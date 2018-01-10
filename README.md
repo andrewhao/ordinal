@@ -1,6 +1,20 @@
 # Ordinal
 
-Converts a simple integer ("2") to an ordinalized string ("2nd")
+Converts a simple integer (`2`) to an ordinalized string (`"2nd"`)
+
+## Usage
+
+    iex> Ordinal.ordinalize(1)
+    "1st"
+
+    iex> Ordinal.ordinalize(11)
+    "11th"
+
+    iex> Ordinal.ordinalize(111)
+    "111th"
+
+    iex> Ordinal.ordinalize(0)
+    "0th"
 
 ## Installation
 
