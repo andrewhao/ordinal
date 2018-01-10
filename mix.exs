@@ -16,8 +16,8 @@ defmodule Ordinal.MixProject do
 
   def package() do
     [
-      licenses: "MIT",
-      maintainers: "Andrew Hao <andrewhao@gmail.com>",
+      licenses: ["MIT"],
+      maintainers: ["Andrew Hao <andrewhao@gmail.com>"],
       links: %{github: "https://www.github.com/andrewhao/ordinal"}
     ]
   end
