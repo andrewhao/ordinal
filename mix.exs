@@ -4,7 +4,7 @@ defmodule Ordinal.MixProject do
   def project do
     [
       app: :ordinal,
-      version: "0.1.0",
+      version: "0.2.0",
       elixir: "~> 1.5",
       description: "Convert numbers to their ordinalized form.",
       start_permanent: Mix.env() == :prod,
